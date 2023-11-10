@@ -1,5 +1,8 @@
-cmake_minimum_required(VERSION 3.15)
+add_subdirectory(lib bin)
 
-PROJECT(HELLO)
+include_directories(./hello)
 
-ADD_SUBDIRECTORY(lib bin)
+link_libraries(/home/yuanzhen/code/CmakeTutorial/lesson2/hello/libhello.so)
+add_executable(lesson2 main.cpp)
+
+# target_link_libraries(lesson2 libhello_static.a)
