@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lesson2",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-lesson2-Debug-aca724276750d718fad8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lesson2",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lesson2/bin",
+					"jsonFile" : "directory-lesson2.bin-Debug-bad1d97d035fbf552071.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "lesson2/lib",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "lesson1",
+					"childIndexes" : 
+					[
+						4,
+						5
+					],
+					"jsonFile" : "directory-lesson1-Debug-f2dca2ce9d580ecc0fa3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "lesson1"
+				},
+				{
+					"build" : "lesson1/test1",
+					"jsonFile" : "directory-lesson1.test1-Debug-8d2728bbb4691c09c983.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "lesson1/test1",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "lesson1/test2",
+					"jsonFile" : "directory-lesson1.test2-Debug-67683050c96c25940356.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "lesson1/test2",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "cmake_tutorial",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"name" : "studyCmake",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "hello::@d8e28586def9548dd967",
+					"jsonFile" : "target-hello-Debug-61680737934cdfaca0bc.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "hello_static::@d8e28586def9548dd967",
+					"jsonFile" : "target-hello_static-Debug-71fee3a1c25bba189931.json",
+					"name" : "hello_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lesson2::@9ffd7a12d1d983e40643",
+					"jsonFile" : "target-lesson2-Debug-a59fe2f5f25a5f973748.json",
+					"name" : "lesson2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test1::@094c64b1e048401b1a40",
+					"jsonFile" : "target-test1-Debug-561518aa894db5c82a5d.json",
+					"name" : "test1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "test2::@f5837f18951cacc1ade5",
+					"jsonFile" : "target-test2-Debug-7acdb037f4364d139a8c.json",
+					"name" : "test2",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zhen/code/CmakeTutorial/build",
+		"source" : "/home/zhen/code/CmakeTutorial"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,17 @@
+/home/zhen/code/CmakeTutorial/build/CMakeFiles/edit_cache.dir
+/home/zhen/code/CmakeTutorial/build/CMakeFiles/rebuild_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson2/CMakeFiles/lesson2.dir
+/home/zhen/code/CmakeTutorial/build/lesson2/CMakeFiles/edit_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson2/CMakeFiles/rebuild_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson2/bin/CMakeFiles/hello_static.dir
+/home/zhen/code/CmakeTutorial/build/lesson2/bin/CMakeFiles/hello.dir
+/home/zhen/code/CmakeTutorial/build/lesson2/bin/CMakeFiles/edit_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson2/bin/CMakeFiles/rebuild_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson1/CMakeFiles/edit_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson1/CMakeFiles/rebuild_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson1/test1/CMakeFiles/test1.dir
+/home/zhen/code/CmakeTutorial/build/lesson1/test1/CMakeFiles/edit_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson1/test1/CMakeFiles/rebuild_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson1/test2/CMakeFiles/test2.dir
+/home/zhen/code/CmakeTutorial/build/lesson1/test2/CMakeFiles/edit_cache.dir
+/home/zhen/code/CmakeTutorial/build/lesson1/test2/CMakeFiles/rebuild_cache.dir

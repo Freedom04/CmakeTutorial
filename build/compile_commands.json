@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/zhen/code/CmakeTutorial/build/lesson2",
+  "command": "/usr/bin/g++  -I/home/zhen/code/CmakeTutorial/lesson2/./hello -g -o CMakeFiles/lesson2.dir/main.cpp.o -c /home/zhen/code/CmakeTutorial/lesson2/main.cpp",
+  "file": "/home/zhen/code/CmakeTutorial/lesson2/main.cpp"
+},
+{
+  "directory": "/home/zhen/code/CmakeTutorial/build/lesson2/bin",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/hello_static.dir/hello.cpp.o -c /home/zhen/code/CmakeTutorial/lesson2/lib/hello.cpp",
+  "file": "/home/zhen/code/CmakeTutorial/lesson2/lib/hello.cpp"
+},
+{
+  "directory": "/home/zhen/code/CmakeTutorial/build/lesson2/bin",
+  "command": "/usr/bin/g++ -Dhello_EXPORTS  -g -fPIC -o CMakeFiles/hello.dir/hello.cpp.o -c /home/zhen/code/CmakeTutorial/lesson2/lib/hello.cpp",
+  "file": "/home/zhen/code/CmakeTutorial/lesson2/lib/hello.cpp"
+},
+{
+  "directory": "/home/zhen/code/CmakeTutorial/build/lesson1/test1",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/test1.dir/main.cpp.o -c /home/zhen/code/CmakeTutorial/lesson1/test1/main.cpp",
+  "file": "/home/zhen/code/CmakeTutorial/lesson1/test1/main.cpp"
+},
+{
+  "directory": "/home/zhen/code/CmakeTutorial/build/lesson1/test1",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/test1.dir/hello.cpp.o -c /home/zhen/code/CmakeTutorial/lesson1/test1/hello.cpp",
+  "file": "/home/zhen/code/CmakeTutorial/lesson1/test1/hello.cpp"
+},
+{
+  "directory": "/home/zhen/code/CmakeTutorial/build/lesson1/test2",
+  "command": "/usr/bin/g++  -I/home/zhen/code/CmakeTutorial/lesson1/test2/../test1 -g -o CMakeFiles/test2.dir/main.cpp.o -c /home/zhen/code/CmakeTutorial/lesson1/test2/main.cpp",
+  "file": "/home/zhen/code/CmakeTutorial/lesson1/test2/main.cpp"
+},
+{
+  "directory": "/home/zhen/code/CmakeTutorial/build/lesson1/test2",
+  "command": "/usr/bin/g++  -I/home/zhen/code/CmakeTutorial/lesson1/test2/../test1 -g -o CMakeFiles/test2.dir/__/test1/hello.cpp.o -c /home/zhen/code/CmakeTutorial/lesson1/test1/hello.cpp",
+  "file": "/home/zhen/code/CmakeTutorial/lesson1/test1/hello.cpp"
+}
+]

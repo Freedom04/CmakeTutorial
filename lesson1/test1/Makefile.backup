@@ -1,0 +1,19 @@
+# main:main.cpp hello.cpp
+# 	g++ main.cpp hello.cpp -o main
+main: main.o hello.o
+	g++ main.o hello.o -o main
+
+main.o hello.o: main.s hello.s
+	g++ -c main.s -o main.o
+	g++ -c hello.s -o hello.o
+
+main.s hello.s: main.i hello.i
+	g++ -S main.i -o main.s
+	g++ -S hello.i -o hello.s
+
+main.i hello.i: main.cpp hello.cpp
+	g++ -E main.cpp -o main.i
+	g++ -E hello.cpp -o hello.i
+
+clean:
+	rm *.i *.s *.o
